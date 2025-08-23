@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\Xポスト台本/**)",
+      "Bash(winget install:*)",
+      "Bash(choco install:*)",
+      "Bash(start gh_installer.msi)",
+      "Bash(scoop install:*)",
+      "Bash(powershell:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(gh:*)",
+      "Bash(cmd /c \"gh --version\")",
+      "Bash(where gh)",
+      "Read(/C:\\Program Files/**)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" --version)",
+      "Bash(echo $PATH)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth status)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login --web)",
+      "Bash(git init:*)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create ClaudeCode --public --description \"Claude Code project with writing rules and content templates\")",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
