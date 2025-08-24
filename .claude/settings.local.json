@@ -19,7 +19,19 @@
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login --web)",
       "Bash(git init:*)",
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create ClaudeCode --public --description \"Claude Code project with writing rules and content templates\")",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\Xポスト台本/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\メルマガ/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\Xポスト台本/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\メルマガ/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\Xポスト台本/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\メルマガ/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\メルマガ/**)",
+      "Read(/c:\\ドキュメント\\claude\\ClaudeCode\\メルマガ/**)"
     ],
     "deny": [],
     "ask": []
