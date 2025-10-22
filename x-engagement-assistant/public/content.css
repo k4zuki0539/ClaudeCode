@@ -1,0 +1,62 @@
+/* X Engagement Assistant - Content Styles */
+
+/* スコアバッジのアニメーション */
+.xea-score-badge {
+  animation: xea-fade-in 0.3s ease-in-out;
+}
+
+@keyframes xea-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* クイックアクションボタンのホバーエフェクト */
+.xea-quick-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+}
+
+.xea-quick-action:active {
+  transform: translateY(0);
+}
+
+.xea-quick-action:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* バッジコンテナのスタイル調整 */
+.xea-badge-container {
+  user-select: none;
+  pointer-events: none;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .xea-badge-container {
+    font-size: 11px !important;
+    padding: 4px 8px !important;
+  }
+
+  .xea-quick-action {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+  }
+
+  .xea-genre {
+    display: none;
+  }
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+  .xea-reason {
+    color: #8b98a5 !important;
+  }
+}

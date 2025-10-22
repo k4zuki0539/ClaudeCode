@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- グラデーション背景 -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景円 -->
+  <circle cx="64" cy="64" r="60" fill="url(#grad)"/>
+
+  <!-- AI/ロボットアイコン -->
+  <path d="M48 52c-4 0-8 4-8 8v16c0 4 4 8 8 8h32c4 0 8-4 8-8V60c0-4-4-8-8-8H48z" fill="white"/>
+
+  <!-- 目 -->
+  <circle cx="56" cy="68" r="4" fill="#667eea"/>
+  <circle cx="72" cy="68" r="4" fill="#667eea"/>
+
+  <!-- アンテナ -->
+  <rect x="62" y="36" width="4" height="12" rx="2" fill="white"/>
+  <circle cx="64" cy="34" r="3" fill="#f59e0b"/>
+
+  <!-- 稲妻マーク（エンゲージメント） -->
+  <path d="M50 92 L58 88 L54 82 L62 78" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
